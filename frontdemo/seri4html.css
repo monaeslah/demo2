@@ -1,0 +1,525 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+
+
+.lego {
+
+    background-color: #009688;
+
+}
+
+.lego:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.fa-home {
+    margin-right: 20px;
+
+}
+
+.lego:hover {
+    background-color: rgb(187, 183, 183) !important;
+    color: black !important;
+}
+
+.search {
+    float: right !important;
+
+}
+
+.search:hover {
+    color: #fff !important;
+    background-color: #009688 !important;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(187, 183, 183) !important;
+    color: black !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fa {
+
+    position: relative;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+
+}
+
+.fa-caret-down:before {
+    content: "\f0d7";
+}
+
+
+
+
+
+.container .btn {
+    position: absolute;
+    left: 1.20%;
+    bottom: 15%;
+    background-color: black;
+    color: white;
+    border: none;
+    font: inherit;
+    font-size: 24px !important;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background-color: #009688 !important;
+}
+
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.head {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container1 div {
+    flex-grow: 1;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 25%
+}
+
+.imgs {
+    border-radius: 50%;
+    width: 149px;
+    height: 149px;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.imgs:hover {
+    opacity: 0.60;
+}
+
+.flex-container2-1 {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(52, 53, 52);
+
+}
+
+.flex-container2-1>div {
+    font-size: 15px;
+    line-height: 25px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: 70px 5px;
+    width: 24.999%;
+}
+
+.ai {
+    background-color: white;
+    color: rgb(7, 7, 7);
+
+}
+
+.ai2 {
+    text-align: left;
+    color: white;
+}
+
+.container3 {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.flex-container3-1 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+    margin-left: 15px;
+
+}
+
+.flex-container3-1:hover {
+    box-shadow: #646464;
+}
+
+.sign {
+    color: #000 !important;
+    background-color: #f0f0f0 !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.green {
+    color: #fff !important;
+    background-color: #009688 !important;
+    padding: 12px 24px !important;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font: inherit
+}
+
+.green:hover {
+    background-color: #b4b4b4 !important;
+    color: #000 !important
+}
+
+.flex-container3-1>div {
+    border: 0.2px solid #ddd;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 16px 16px;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+}
+
+.pre {
+
+    font-size: 26px;
+    margin: 20px
+}
+
+.flex-container3-2 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+    border: 0.2px solid #ddd;
+    margin-left: 15px;
+}
+
+.flex-container3-2>div {
+    border: 0.2px solid #ddd;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 16px 16px;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+}
+
+.flex-container3-3 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+    border: 0.2px solid #ddd;
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.flex-container3-3>div {
+    border: 0.2px solid #ddd;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 16px 16px;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+}
+
+.connect {
+    width: 100%;
+    background-color: #e0dddd;
+    padding-top: 10px;
+    margin-top: 30px;
+    border: none;
+
+
+    display: flex;
+}
+
+.left {
+    flex-grow: 2;
+    box-shadow: 20px 10px 100px gray;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 40px 10px 20px 0px;
+    text-align: left;
+}
+
+.mine {
+    float: left;
+}
+
+.right {
+    flex-grow: 1;
+    padding-right: 2px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.feild {
+    width: 95%;
+    margin-left: 2%;
+    padding-top: 10px;
+    display: block;
+    text-align: start;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.label {
+    padding-left: 20px;
+}
+
+.check {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+
+}
+
+.submit {
+    float: right;
+    background-color: #000000;
+    padding: 8px 16px;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #ccc;
+    color: black;
+
+}
+
+.cu {
+
+    font-size: 24px;
+    width: 140px;
+    border-bottom: 6px #009688 solid;
+}
+
+.address {
+    font-size: 20px;
+    font-weight: 70;
+}
+
+.chic {
+    font-size: 24px !important;
+    color: #009688 !important;
+}
+
+.map {
+    vertical-align: middle;
+    margin: 0.1px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.footer {
+    color: #fff !important;
+    background-color: #000000 !important;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    text-align: center !important;
+    padding: 0.01em 16px;
+}
+
+h4 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.link {
+    color: #fff !important;
+    background-color: #009688 !important;
+    font-size: 18px !important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.link:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.sum {
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    float: right !important;
+    box-sizing: inherit
+}
+
+.sum a,
+.serius {
+    margin-left: 5px;
+
+}
+
+.top {
+    display: none;
+    position: relative;
+    color: #fff !important;
+    background-color: #009688 !important;
+    padding: 8px 16px !important;
+    height: 40px;
+    margin-top: 7px
+}
+
+.theme {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.theme:hover {
+    background-color: #cccccc !important;
+    color: #000 !important;
+}
+
+.sum:hover .top {
+    display: block
+}
+
+.serius {
+    color: #fff !important;
+    display: block;
+
+
+}
+
+.like:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
